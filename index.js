@@ -1,4 +1,5 @@
 const $ = require("jquery");
+
 $(document).ready(
     function () {
         $("#grid .cell").on("click", function () {

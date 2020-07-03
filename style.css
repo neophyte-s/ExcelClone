@@ -6,6 +6,8 @@ html,body{
 *{
     box-sizing: border-box;
 }
+
+
 .menu{
     height: 22px;
     border: 1px solid red;
