@@ -18,15 +18,6 @@ $(document).ready(
         })
         $("#New").on("click", function () {
             db = [];
-            // $("#grid").find(".row").each(function () {
-            //     let row = [];
-            //     $(this).find(".cell").each(function () {
-            //         let cell = false;
-            //         row.push(cell);
-            //         $(this).html("false");
-            //     })
-            //     db.push(row)
-            // })
             let rows = $("#grid").find(".row");
             for (let i = 0; i < rows.length; i++) {
                 let row = [];
