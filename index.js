@@ -1,6 +1,7 @@
 const $ = require("jquery");
 const electron = require("electron");
 const fs = require("fs");
+
 const dialog = require("electron").remote.dialog;
 $(document).ready(
     function () {
