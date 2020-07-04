@@ -39,7 +39,6 @@ html,body{
     height: 26px;
     border: 1px solid yellow;
 }
-/* Cell Conatiner area */
 .cell-container{
     height: calc(100vh - 124px);  
     overflow: auto;

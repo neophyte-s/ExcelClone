@@ -16,6 +16,7 @@ $(document).ready(
             let id = $(this).attr("id");
             $(`#${id}-options`).addClass("selected");
         })
+        
         $("#New").on("click", function () {
             db = [];
             let rows = $("#grid").find(".row");
